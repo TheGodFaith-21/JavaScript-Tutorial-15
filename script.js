@@ -71,9 +71,24 @@ function oInput(){
 console.log('');
 console.log("ONCHANGE EVENT LISTENER");
 console.log('');
-
+/*
 function oChange(){
     let inp = document.querySelector("input"); 
     let p = document.querySelector("p");
     p.innerHTML = inp.value;
+}
+    */
+console.log('');
+console.log("DOM FORMS");
+console.log('');
+
+console.log('');
+console.log("HANDLE INPUT FIELDS");
+console.log('');
+
+function signIn(){
+    let email = document.querySelector("#txtEmail").value;
+    let password = document.querySelector("#txtPassword").value;
+    alert(email + "\n" + password);
+    console.log(email + "\n" + password);
 }
