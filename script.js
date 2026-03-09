@@ -107,8 +107,19 @@ function submit(){
     console.log(color);
 }
 */
+/*
 function submit(){
     let range = document.querySelector("#txtRange").value;
     alert(range);
     console.log(range);
+}
+    */
+console.log('');
+console.log("HANDLE DROPDOWN FIELDS");
+console.log('');
+
+function sendCountry(){
+    let slcCountry = document.querySelector("#slcCountry").value;
+    alert(slcCountry);
+    console.log(slcCountry);
 }
