@@ -61,8 +61,18 @@ function bInput(){
 console.log('');
 console.log("ONINPUT EVENT LISTENER");
 console.log('');
-
+/*
 function oInput(){
+    let inp = document.querySelector("input"); 
+    let p = document.querySelector("p");
+    p.innerHTML = inp.value;
+}
+*/
+console.log('');
+console.log("ONCHANGE EVENT LISTENER");
+console.log('');
+
+function oChange(){
     let inp = document.querySelector("input"); 
     let p = document.querySelector("p");
     p.innerHTML = inp.value;
