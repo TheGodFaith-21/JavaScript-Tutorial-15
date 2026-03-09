@@ -85,10 +85,30 @@ console.log('');
 console.log('');
 console.log("HANDLE INPUT FIELDS");
 console.log('');
-
+/*
 function signIn(){
     let email = document.querySelector("#txtEmail").value;
     let password = document.querySelector("#txtPassword").value;
     alert(email + "\n" + password);
     console.log(email + "\n" + password);
+}
+*/
+/*
+function submit(){
+    let num = document.querySelector("#txtNumber").value;
+    alert(num);
+    console.log(num);
+}
+    */
+/*
+function submit(){
+    let color = document.querySelector("#txtColor").value;
+    alert(color);
+    console.log(color);
+}
+*/
+function submit(){
+    let range = document.querySelector("#txtRange").value;
+    alert(range);
+    console.log(range);
 }
