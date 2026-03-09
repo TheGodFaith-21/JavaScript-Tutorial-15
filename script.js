@@ -14,3 +14,9 @@ function funcName(){
 console.log('');
 console.log("ONCLICK EVENT LISTENER");
 console.log('');
+
+function submit(){
+    let title = document.querySelector(".title");
+    title.innerHTML="JavaScript Tutorial 15";  
+    alert("H1 Change");
+}
