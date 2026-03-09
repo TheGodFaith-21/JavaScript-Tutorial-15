@@ -117,9 +117,32 @@ function submit(){
 console.log('');
 console.log("HANDLE DROPDOWN FIELDS");
 console.log('');
-
+/*
 function sendCountry(){
     let slcCountry = document.querySelector("#slcCountry").value;
     alert(slcCountry);
     console.log(slcCountry);
+}
+    */
+console.log('');
+console.log("HANDLE CHECKBOX");
+console.log('');
+/*
+function sendDecision(){
+    let decision = document.querySelector("#chkAgree").checked;
+    if(decision){
+        alert("Confirm the agreement");
+    }else{
+        alert("Please confirm");
+    }
+}
+    */
+console.log('');
+console.log("HANDLE RADIO BUTTONS");
+console.log('');
+
+function sendSex(){
+    let sex = document.querySelector("input[name=sex]:checked").value;
+    alert(sex);
+    console.log(sex);
 }
