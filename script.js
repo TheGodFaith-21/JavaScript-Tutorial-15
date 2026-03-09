@@ -20,3 +20,12 @@ function submit(){
     title.innerHTML="JavaScript Tutorial 15";  
     alert("H1 Change");
 }
+console.log('');
+console.log("ONMOUSEOVER EVENT LISTENER");
+console.log('');
+
+function mHov(){
+    let title = document.querySelector(".title");
+    title.innerHTML="You Hover the text";
+    alert("Hover This");
+}
